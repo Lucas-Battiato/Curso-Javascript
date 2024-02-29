@@ -1,3 +1,4 @@
+function pedido(){
 let nombre;
 
 do {
@@ -7,13 +8,13 @@ do {
 
 //Utilización de IF
 //if(hamburguesa.toLowerCase() == "hamburguesa simple"){
-//    prompt(nombre + " seleccionaste una Hamburguesa Simple");
+//    alert(nombre + " seleccionaste una Hamburguesa Simple");
 //    }
 //    else if (hamburguesa.toLowerCase() == "hamburguesa completa"){
-//        prompt(nombre + " seleccionaste una Hamburguesa Completa");
+//        alert(nombre + " seleccionaste una Hamburguesa Completa");
 //    }
 //    else if (hamburguesa.toLowerCase() == "hamburguesa kian"){
-//        prompt(nombre + " seleccionaste una Hamburguesa Kian");
+//        alert(nombre + " seleccionaste una Hamburguesa Kian");
 //    }
 //    else{
 //        alert("Nombre de hamburguesa incorrecta")
@@ -64,6 +65,6 @@ do {
 } while (agregar === "si");
 
 alert("Muchas gracias por su compra, el precio final es : $" + compraTotal);
-
-
+}
+pedido()
 //* En este código se puede visualizar como primero le pedimos que ingrese un nombre valido, luego hago unas variables de almacenamiento, después determino la eleccion del pedido, se suma el precio total, se hace un ciclo por si quiere agregar mas elecciones y al final le muestra el resultado total.
